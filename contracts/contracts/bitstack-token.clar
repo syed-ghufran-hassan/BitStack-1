@@ -4,6 +4,7 @@
 
 (define-fungible-token bitstack-token u100000000000000)
 
+;; Error codes
 (define-constant ERR-UNAUTHORIZED (err u100))
 (define-constant ERR-INSUFFICIENT-BALANCE (err u101))
 (define-constant ERR-INVALID-AMOUNT (err u102))
