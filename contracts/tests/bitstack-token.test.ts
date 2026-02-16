@@ -82,7 +82,7 @@ describe('BitStack Token', () => {
     });
   });
 
-  describe('Burn', () => {
+  describe('Token Burning', () => {
     it('burns tokens from sender', () => {
       simnet.callPublicFn('bitstack-token', 'transfer',
         [Cl.uint(10000), Cl.principal(deployer), Cl.principal(alice), Cl.none()], deployer);
