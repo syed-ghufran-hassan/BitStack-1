@@ -65,7 +65,7 @@ describe('BitStack Token', () => {
     });
   });
 
-  describe('Mint', () => {
+  describe('Token Minting', () => {
     it('mints tokens to recipient', () => {
       const { result } = simnet.callPublicFn('bitstack-token', 'mint',
         [Cl.uint(5000), Cl.principal(alice)], deployer);
