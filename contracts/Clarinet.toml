@@ -9,6 +9,10 @@ cache_dir = "./.cache"
 path = "contracts/bitstack.clar"
 epoch = "3.0"
 
+[contracts.bitstack-token]
+path = "contracts/bitstack-token.clar"
+epoch = "3.0"
+
 [repl.analysis]
 passes = ["check_checker"]
 check_checker = { trusted_sender = false, trusted_caller = false, callee_filter = false }
