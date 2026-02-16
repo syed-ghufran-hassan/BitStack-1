@@ -36,7 +36,7 @@ describe('BitStack Token', () => {
     });
   });
 
-  describe('Transfer', () => {
+  describe('Token Transfer', () => {
     it('transfers tokens successfully', () => {
       const { result } = simnet.callPublicFn('bitstack-token', 'transfer', 
         [Cl.uint(1000), Cl.principal(deployer), Cl.principal(alice), Cl.none()], deployer);
