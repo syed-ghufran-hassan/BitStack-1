@@ -24,7 +24,7 @@ describe('BitStack Token', () => {
     });
   });
 
-  describe('Supply', () => {
+  describe('Token Supply', () => {
     it('has correct total supply', () => {
       const { result } = simnet.callReadOnlyFn('bitstack-token', 'get-total-supply', [], deployer);
       expect(result).toBeOk(Cl.uint(100000000000000));
