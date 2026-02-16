@@ -9,6 +9,7 @@
 
 (define-data-var token-uri (optional (string-utf8 256)) none)
 
+;; Read-only functions
 (define-read-only (get-name)
   (ok "BitStack Token"))
 
