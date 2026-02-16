@@ -1,5 +1,6 @@
 ;; BitStack Token (BST)
-;; SIP-010 Fungible Token
+;; SIP-010 Fungible Token Standard Implementation
+;; Provides core token functionality for the BitStack ecosystem
 
 (define-fungible-token bitstack-token u100000000000000)
 
